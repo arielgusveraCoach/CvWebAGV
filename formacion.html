@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formación - Ariel Gustavo Vera</title>
+    <meta name="description" content="Formación Académica de Ariel Gustavo Vera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        main {
+            padding-top: 100px;
+            min-height: calc(100vh - 80px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-animated"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">AGV</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Perfil</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="formacion.html" class="active-link">Formación</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Education Section -->
+        <section id="education" class="education section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Formación <span class="gradient-text">Académica</span></h2>
+                <div class="grid-cards">
+
+                    <div class="glass-card edu-card reveal">
+                        <i data-lucide="code-2" class="edu-icon"></i>
+                        <h3>Desarrollo Inteligente con IA en Python</h3>
+                        <span class="institution">Santander Open Academy</span>
+                        <span class="date">2026</span>
+                    </div>
+
+                    <div class="glass-card edu-card reveal">
+                        <i data-lucide="users" class="edu-icon"></i>
+                        <h3>Coach Ontológico Profesional</h3>
+                        <span class="institution">AXON (Aval CIC)</span>
+                    </div>
+
+                    <div class="glass-card edu-card reveal">
+                        <i data-lucide="monitor" class="edu-icon"></i>
+                        <h3>Desarrollador de Sistemas Administrativos</h3>
+                        <span class="institution">ENS46 Santa Fe</span>
+                    </div>
+
+                    <div class="glass-card edu-card reveal">
+                        <i data-lucide="laptop" class="edu-icon"></i>
+                        <h3>Programación Avanzada en Visual Basic & Diseño Web</h3>
+                        <span class="institution">UTN</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Ariel Gustavo Vera. Todos los derechos reservados.</p>
+            <p class="made-with">Diseñado con <i data-lucide="heart" class="heart-icon"></i> por Antigravity</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
